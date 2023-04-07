@@ -55,7 +55,7 @@ button, input[type="submit"], input[type="reset"] {
     padding-top: 50px;
     padding-bottom: 50px;
 }
-.name, .story, .hours, .location, .espresso, .coffee, .tea, .food{
+.name, .story, .hours, .location, .espresso, .coffee, .tea, .food, .founders, .managers{
     width: 350px;
     border: var(--brown) solid 4px;
     border-radius: 8px;
@@ -68,7 +68,7 @@ button, input[type="submit"], input[type="reset"] {
     text-align: center;
     
 }
-.hoursheader, .storyheader, .location, .menuheader {
+.hoursheader, .storyheader, .location, .menuheader, .contactheader {
  font-size: 1.4rem;
  font-weight: bold;
 }
@@ -78,5 +78,15 @@ button, input[type="submit"], input[type="reset"] {
 .storytext, .hourslist, .menulist {
     text-align: center;
     padding-top: 3px;
+    font-size: 1.2rem;
+}
+.contactEmail, .contactPhone {
+    padding-left: 100px;
+    font-size: 1.2rem;
+}
+.contactName {
+    font-weight: bold;
+    padding-left: 80px;
+    padding-top: 12px;
     font-size: 1.2rem;
 }

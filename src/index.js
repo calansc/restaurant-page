@@ -8,11 +8,11 @@ const header = document.getElementById("header");
 const content = document.getElementById("content");
 
 header.appendChild(headerTabs());
-// content.appendChild(home());
-content.appendChild(menu());
+content.appendChild(home());
+// content.appendChild(menu());
+// content.appendChild(contact());
 
 function displayHome() {
-  //clear content div
   while (content.firstChild) {
     content.removeChild(content.lastChild);
   }
@@ -20,7 +20,6 @@ function displayHome() {
 }
 
 function displayMenu() {
-  //clear content div
   while (content.firstChild) {
     content.removeChild(content.lastChild);
   }
@@ -28,7 +27,6 @@ function displayMenu() {
 }
 
 function displayContact() {
-  //clear content div
   while (content.firstChild) {
     content.removeChild(content.lastChild);
   }
