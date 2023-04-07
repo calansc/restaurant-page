@@ -1,21 +1,12 @@
-export { home };
+export { contact };
 
-function home() {
-  const homePage = document.createElement("div");
-  //   homePage.textContent = "test home div";
-  homePage.classList.add("homePage");
+function contact() {
+  const contactPage = document.createElement("div");
+  contactPage.classList.add("contactPage");
 
   const classes = ["name", "story", "hours", "location"];
   const text = ["Rolling Brews", "", "", "123 UTB, ATC 90210"];
-  const hours = [
-    "Monday: 7am-3pm",
-    "Tuesday: 7am-3pm",
-    "Wednesday: 7am-3pm",
-    "Thursday: 7am-3pm",
-    "Friday: 7am-8pm",
-    "Saturday: 7am-8pm",
-    "Sunday: 7am-1pm",
-  ];
+  const hours = ["This is the contact page"];
   for (let i = 0; i < classes.length; i++) {
     const div = document.createElement("div");
     div.classList.add(classes[i]);
@@ -27,8 +18,7 @@ function home() {
       div2.classList.add("storyheader");
       div3.classList.add("storytext");
       div2.textContent = "Our Story: ";
-      div3.textContent =
-        "This is a story all about how Rolling Brews got rolling around! Come get caffeinated at some of your favorite locations that we will be rolling through this year. Try out our variety of espresso and coffee drinks!";
+      div3.textContent = "CONTACT CONTACT CONTACT CONTACT";
       div.appendChild(div2);
       div.appendChild(div3);
     }
@@ -44,8 +34,8 @@ function home() {
         div.appendChild(div3);
       }
     }
-    homePage.appendChild(div);
+    contactPage.appendChild(div);
   }
 
-  return homePage;
+  return contactPage;
 }

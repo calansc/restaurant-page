@@ -20,6 +20,7 @@ body {
     gap: 2rem;
     /* justify-items: center; */
     justify-content: center;
+    margin-bottom: 20px;
 }
 button, input[type="submit"], input[type="reset"] {
 	background: none;
@@ -39,4 +40,45 @@ button, input[type="submit"], input[type="reset"] {
     text-align: center;
     /* color:rgb(0, 0, 0); */
     color: var(--brown);
+}
+#content {
+    display: grid;
+    justify-items:center;
+}
+.homePage, .menuPage, .contactPage {
+    display: grid;
+    gap: 30px;
+    justify-items: center;
+    width: 450px;
+    background: var(--tan);
+    border: var(--tan) solid 2px;
+    border-radius: 8px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.name, .story, .hours, .location {
+    width: 350px;
+    /* border: var(--brown) solid 2px; */
+    border: var(--brown) solid 4px;
+    border-radius: 8px;
+    padding: 12px;
+    color:var(--brown);
+}
+.name {
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    
+}
+.hoursheader, .storyheader, .location {
+ font-size: 1.4rem;
+ font-weight: bold;
+}
+.location {
+    text-align: center;
+}
+.storytext, .hourslist {
+    text-align: center;
+    padding-top: 3px;
+    font-size: 1.2rem;
 }

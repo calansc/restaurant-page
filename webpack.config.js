@@ -4,13 +4,15 @@ module.exports = {
   mode: "development",
   entry: {
     index: "./src/index.js",
-    initial: "./src/initial.js",
-    home: "./src/home.js",
+    // initial: "./src/initial.js",
+    // home: "./src/home.js",
   },
   devtool: "inline-source-map",
   output: {
     filename: "main.js",
     path: path.resolve(__dirname, "dist"),
+    chunkFilename: "[id].[chunkhash].js",
+    // clean: true,
   },
   module: {
     rules: [
