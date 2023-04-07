@@ -38,7 +38,6 @@ button, input[type="submit"], input[type="reset"] {
     font-size: 2rem;
     font-weight: bold;
     text-align: center;
-    /* color:rgb(0, 0, 0); */
     color: var(--brown);
 }
 #content {
@@ -56,9 +55,8 @@ button, input[type="submit"], input[type="reset"] {
     padding-top: 50px;
     padding-bottom: 50px;
 }
-.name, .story, .hours, .location {
+.name, .story, .hours, .location, .espresso, .coffee, .tea, .food{
     width: 350px;
-    /* border: var(--brown) solid 2px; */
     border: var(--brown) solid 4px;
     border-radius: 8px;
     padding: 12px;
@@ -70,14 +68,14 @@ button, input[type="submit"], input[type="reset"] {
     text-align: center;
     
 }
-.hoursheader, .storyheader, .location {
+.hoursheader, .storyheader, .location, .menuheader {
  font-size: 1.4rem;
  font-weight: bold;
 }
 .location {
     text-align: center;
 }
-.storytext, .hourslist {
+.storytext, .hourslist, .menulist {
     text-align: center;
     padding-top: 3px;
     font-size: 1.2rem;

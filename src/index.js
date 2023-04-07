@@ -8,7 +8,8 @@ const header = document.getElementById("header");
 const content = document.getElementById("content");
 
 header.appendChild(headerTabs());
-content.appendChild(home());
+// content.appendChild(home());
+content.appendChild(menu());
 
 function displayHome() {
   //clear content div
