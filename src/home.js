@@ -6,7 +6,7 @@ function home() {
   homePage.classList.add("homePage");
 
   const classes = ["name", "story", "hours", "location"];
-  const text = ["Rolling Brews", "", "", "123 UTB, ATC 90210"];
+  const text = ["Rolling Brews", "", "", "123 Moose, Anch, AK 99501"];
   const hours = [
     "Monday: 7am-3pm",
     "Tuesday: 7am-3pm",

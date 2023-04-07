@@ -16,10 +16,12 @@ body {
 }
 .tabs {
     display: grid;
-    grid-template-columns: 128px 128px 128px;
-    gap: 2rem;
-    /* justify-items: center; */
-    justify-content: center;
+    grid-template-columns: 120px 120px 120px;
+    gap: 1rem;
+    /* justify-items:center; */
+    /* padding: 4px; */
+    justify-content:center;
+    margin-top: 20px;
     margin-bottom: 20px;
 }
 button, input[type="submit"], input[type="reset"] {
@@ -48,15 +50,15 @@ button, input[type="submit"], input[type="reset"] {
     display: grid;
     gap: 30px;
     justify-items: center;
-    width: 450px;
+    width: 360px;
     background: var(--tan);
     border: var(--tan) solid 2px;
     border-radius: 8px;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 .name, .story, .hours, .location, .espresso, .coffee, .tea, .food, .founders, .managers{
-    width: 350px;
+    width: 300px;
     border: var(--brown) solid 4px;
     border-radius: 8px;
     padding: 12px;
