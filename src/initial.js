@@ -1,52 +1,25 @@
-export { TitleBar };
-import TopBackground from "./espresso.jpg";
+export { headerTabs };
 
-function TitleBar() {
-  const element = document.createElement("div");
-  element.setAttribute("id", "titleBar");
+function headerTabs() {
+  const tabs = document.createElement("div");
+  tabs.classList.add("tabs");
+  // tabs.textContent = "Tabs test";
 
-  const title = document.createElement("div");
-  title.textContent = "Rolling Brews";
-  title.classList.add("title");
+  const tab1 = document.createElement("button");
+  tab1.classList.add("tab");
+  tab1.textContent = "Home";
 
-  const myTopBackground = new Image();
-  myTopBackground.src = TopBackground;
-  myTopBackground.classList.add("topBackground");
+  const tab2 = document.createElement("button");
+  tab2.classList.add("tab");
+  tab2.textContent = "Menu";
 
-  const story = document.createElement("div");
-  story.textContent =
-    "These brews be rolling! Come visit our state of the art cafe on wheels. We caffeinate Ohio's best events with top quality brews.";
-  story.classList.add("story");
+  const tab3 = document.createElement("button");
+  tab3.classList.add("tab");
+  tab3.textContent = "Contact";
 
-  element.appendChild(myTopBackground);
-  element.appendChild(title);
-  element.appendChild(story);
+  tabs.appendChild(tab1);
+  tabs.appendChild(tab2);
+  tabs.appendChild(tab3);
 
-  return element;
+  return tabs;
 }
-
-// function title() {
-//   const element = document.createElement("div");
-
-//   element.textContent = "Rolling Brews";
-//   element.classList.add("title");
-
-//   return element;
-// }
-// function background() {
-//   const myTopBackground = new Image();
-//   myTopBackground.src = TopBackground;
-//   myTopBackground.classList.add("topBackground");
-
-//   return myTopBackground;
-// }
-
-// function story() {
-//   const element = document.createElement("div");
-
-//   element.textContent =
-//     "These brews be rolling! Come visit our state of the art cafe on wheels. We caffeinate Ohio's best events with top quality brews.";
-//   element.classList.add("story");
-
-//   return element;
-// }
